@@ -8,7 +8,7 @@ public class Encapsulation {
         Encapsulation sa = new Encapsulation();
 
 
-        System.out.println();
+        //System.out.println();
 
     }
 
