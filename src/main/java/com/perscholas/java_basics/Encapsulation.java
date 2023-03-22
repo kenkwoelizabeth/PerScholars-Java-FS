@@ -31,6 +31,7 @@ public class Encapsulation {
               sa.setName("Lizzy");
 
             System.out.println(sa.getName() + " is " + sa.getAge() + " years old " );
+            System.out.println(sa.getName() + " is " + sa.getAge() + " years old " );
 
         }
 }
