@@ -51,8 +51,6 @@ public class Encapsulation {
               int rectangleArea= sa.getHeight() * sa.getWidth();
             System.out.println(sa.getName() + " is " + sa.getAge() + " years old " );
             System.out.println( "The area of the rectangle is " + rectangleArea);
-            System.out.println( "The area of the rectangle is " + rectangleArea);
-            System.out.println(sa.getName() + " is " + sa.getAge() + " years old " );
 
         }
 }
