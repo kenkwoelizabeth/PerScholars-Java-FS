@@ -6,9 +6,12 @@ import java.util.concurrent.ThreadLocalRandom;
 public class RandomNum {
 
     public static void main(String[] args) {
-        //  int num= ThreadLocalRandom.current().nextInt(6, 10);
-        //  System.out.println(" you rolled a "  + num);
+        int num = ThreadLocalRandom.current().nextInt(100, 1000);
+        System.out.println(" you rolled a " + num);
 
+          double random =Math.random();  // using math.util
+        int i= (100 + (int) (Math.random() * 1000));
+        System.out.println(i);
 
         //Write a program which prints numbers from 89 to 117.
       /*  for(int i=89; i<118; i++){
@@ -46,9 +49,9 @@ public class RandomNum {
         int y = 4 / 2 + 8 * 4 - ( 5+ 2 ) % 3;
         System.out.println(x );
         System.out.println(y );*/
-        int x = 5;
-        x *= 6;
-        System.out.println(x );
+     //   int x = 5;
+   //     x *= 6;
+     //  System.out.println(x );
     }
 
 }

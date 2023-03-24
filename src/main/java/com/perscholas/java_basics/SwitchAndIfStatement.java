@@ -1,6 +1,6 @@
 package com.perscholas.java_basics;
 import java.util.Scanner;
-public class Week1 {
+public class SwitchAndIfStatement {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 

@@ -12,11 +12,10 @@ public class ThirdWeekHM {
         String secondInput=scanner.nextLine();
         int lineLength= firstInput.length() + secondInput.length();  // getting the sum of the length
 
-        if(lineLength % 2 == 0){          // if statement for even and odd
+        if(lineLength % 2 ==0){          // if statement for
             System.out.println( "The sum total for the length of the two line is " + lineLength + " which is an even number");
         }else{
             System.out.println( "The sum total for the length of the two line is " + lineLength + " which is an odd number");
         }
 }
-
 }
